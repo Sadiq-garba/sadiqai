@@ -1,0 +1,111 @@
+html,body{
+  background-color: rgb(17, 17, 51);
+  overflow-x: hidden;
+ 
+}
+.top-wrapper{
+
+  padding-top:80px;
+}
+.content{
+  padding-bottom:20px;
+  
+}
+.figtree-lin {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+#copyButton{
+  padding:10px;
+  color:black;
+  background-color:transparent;
+  /* border:2px solid white; */
+  border:none;
+   color:white;
+   display:block;
+   margin:0 auto;
+}
+#copyButton i{
+  
+  color:white;;
+  font-size:27px;
+  /* border:2px solid white; */
+ 
+}
+
+
+.mecon{
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  border:2px solid white;
+  display:block;
+  margin:0 auto;
+}
+
+
+
+
+.chat-container{
+width:100%;
+
+background-color: rgb(17, 17, 51);
+padding:20%;
+display: flex;
+align-items: center;
+justify-content:center;
+
+}
+
+
+#searchForm{
+ 
+  width:80%;
+  max-width:700px;
+  border:2px solid white;
+  padding:7px 10px;
+  border-radius:15px;
+  display:flex;
+  align-items:center;
+  position:fixed;
+  bottom:10px;
+
+}
+
+.search{
+  background-color: rgb(17, 17, 51);
+  flex:1;
+  border:0;
+  outline:none; 
+  padding:16px 12px;
+  font-size:20px;
+  color:white;
+  width:100%;
+}
+::placeholder{
+  color:white;
+}
+
+.submit{
+  background-color: transparent;
+  border:none;
+}
+.fa-paper-plane{
+  font-size:29px;
+  color:white !important;
+cursor:pointer;
+}
+#span{
+  text-align:center;
+  margin:0 auto;
+  color:green;
+}
+.preloader {
+  display: none; /* Hide preloader initially */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
